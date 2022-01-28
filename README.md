@@ -2,7 +2,7 @@
 
 W.E.B. Du Bois is a hero of mine. Books like _Black Reconstruction_ and _The Souls of Black Folk_ have had huge impacts on my development as a leftist, and the vast extent of his writings and interviews means I'll be learning from him for a looong time. 
 
-In this repo, I'll be re-creating some of my favorite Du Bois data visualizations using R and the {ggplot2} library. The first one I went for is his spiral display showing city vs rural populations for African-Americans in Georgia in 1890. It was fun trying to match up the spiral and segments.
+In this repo, I'll be re-creating some of my favorite Du Bois data visualizations using R and the {ggplot2} library. The first one I went for is his spiral display showing city vs rural populations for African-Americans in Georgia in 1890. It was fun trying to match up the spiral and line segments -- next, I'll add text and make it look more old-school.
 
 Mine (so far):
 
