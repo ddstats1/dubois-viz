@@ -29,7 +29,7 @@ df <- tibble(x = t * cos(-2.915*t),
 
 spiral <- df %>% 
   ggplot(aes(x, y)) +
-  geom_path(color = col_red, size = seg_size, alpha = .2) +
+  geom_path(color = col_red, size = seg_size) +
   xlim(-29, 29) +
   ylim(-14, 34) +
   theme(panel.background = element_rect(fill = "#F7eee5", color = "#F7eee5"),
@@ -44,7 +44,7 @@ build_seg <- function(x_start, y_start, x_end, y_end, color_hex) {
   geom_segment(data = tibble(x = x_start, y = y_start, xend = x_end, yend = y_end),
                mapping = aes(x = x_start, y = y_start, xend = x_end, yend = y_end),
                color = color_hex,
-               alpha = .2,
+               #alpha = .2,
                size = seg_size,
                lineend = "round")
 }
